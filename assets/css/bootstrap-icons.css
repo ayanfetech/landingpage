@@ -1,0 +1,34 @@
+@font-face {
+  font-display: block;
+  font-family: "bootstrap-icons";
+  src: url("./fonts/bootstrap-icons.woff2?8d200481aa7f02a2d63a331fc782cfaf") format("woff2"),
+url("./fonts/bootstrap-icons.woff?8d200481aa7f02a2d63a331fc782cfaf") format("woff");
+}
+
+.bi::before,
+[class^="bi-"]::before,
+[class*=" bi-"]::before {
+  display: inline-block;
+  font-family: bootstrap-icons !important;
+  font-style: normal;
+  font-weight: normal !important;
+  font-variant: normal;
+  text-transform: none;
+  line-height: 1;
+  vertical-align: -.125em;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+.bi-arrow-up-short::before { content: "\f145"; }
+.bi-code-slash::before { content: "\f2c6"; }
+.bi-brush::before { content: "\f1d8"; }
+.bi-calendar4-week::before { content: "\f217"; }
+.bi-braces-asterisk::before { content: "\f70e"; }
+.bi-check::before { content: "\f26e"; }
+.bi-envelope::before { content: "\f32f"; }
+.bi-geo-alt::before { content: "\f3e8"; }
+.bi-journal-richtext::before { content: "\f443"; }
+.bi-list::before { content: "\f479"; }
+.bi-x::before { content: "\f62a"; }
+.bi-people::before { content: "\f4d0"; }
+.bi-phone::before { content: "\f4e7"; }
